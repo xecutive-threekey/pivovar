@@ -1,3 +1,7 @@
 from django.contrib import admin
+from basket.models import Basket, BasketItems, PaymentMethod, Order
 
-# Register your models here.
+admin.site.register(Basket)
+admin.site.register(BasketItems)
+admin.site.register(PaymentMethod)
+admin.site.register(Order)
